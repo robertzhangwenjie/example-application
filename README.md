@@ -1,4 +1,5 @@
 # Example Application Repository
+# Testing GitOps
 
 This is an application repository to perform *Operations on Pull Request* via an environment repository.
 It runs a GitHub Workflow to build a container image on a new release, and triggers a workflow in the environment repository to create a pull request with the new application version.
